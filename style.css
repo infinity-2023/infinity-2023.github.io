@@ -212,7 +212,12 @@ div#wrapper {
 	font-size:0.9em;
 	color:grey;
 }
-
+.strong {
+	font-weight: bold;
+}
+tr.break {
+	background-color: #ccb49c;
+}
 
 
 /** header **/
