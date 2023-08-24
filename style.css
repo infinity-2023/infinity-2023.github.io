@@ -24,8 +24,19 @@ body {
 /** element defaults **/
 table {
 	width:100%;
+    border-collapse: collapse;
 	text-align:left;
 }
+
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
 
 tr {
     border-color:#8c2532;
@@ -40,7 +51,6 @@ th {
 	background-color:#2F2F2F;
 }
 td {
-    border-bottom:1px solid #f4f4f4;
 }
 code, blockquote {
 	padding: 0 10px;
@@ -195,7 +205,13 @@ div#wrapper {
 	width:auto;
 	margin: 0 auto;
 }
-
+.it {
+	font-style: italic;
+}
+.muted {
+	font-size:0.9em;
+	color:grey;
+}
 
 
 
